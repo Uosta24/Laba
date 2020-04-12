@@ -1,2 +1,0 @@
-# Laba
-Laba po GIT
