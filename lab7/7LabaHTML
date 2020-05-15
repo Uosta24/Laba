@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+<title>Laba7</title>
+<link href="https://fonts.googleapis.com/css?family=LUCIDA+SANS+UNICODE|" rel="stylesheet">
+<style>
+#header{
+height: 100vh;
+ min-width: 100%;
+    margin-bottom: 70px;
+    margin-left: -20px;
+	margin-right: -20px;
+    margin-top: -50px;
+    background-size: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url(bg.png);
+    background-position: center;
+    text-align: center;
+	font-family:'lucida sans unicode';
+}
+
+.head1{
+
+font-size: 55px;
+}
+
+.head2{
+font-size: 20px;
+}
+
+#button{
+float:right;
+background: url(ccc.png);
+width:29px;
+height: 25px;
+
+}
+
+.button2{
+width:150px;
+height: 55px;
+border-radius: 10px; 
+background:#3cc9b2;
+box-shadow: 10px 10px 5px #227d6e;
+}
+
+.button2:hover{
+background:#227d6e;
+tecolor: #ffffff;
+box-shadow: 5px 5px 2px #cccccc;
+}
+
+#all{
+height: 200px;
+ min-width: 100%;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    text-align: center;
+	font-family:'lucida sans unicode';
+}
+</style>
+</head>
+<body>
+
+    <div id="header">
+	<button style="float: right" id="button" ></button>
+	<p class="head1"><font color="#022027">H A L C Y O N</font>
+	<font color="#b3b8b2">D A Y S</font>
+	</p>
+	<p class="head2"><font color="#b3b8b2">An exclusive HTML5/CSS3 freebie by Peter Finlan, for <b>Codrops</b></font><p>
+	<div class="button2">
+	<p><font color="#013a33"><b>LEARN MORE</b></font></p></div></div>
+	<div id="all"> 
+	<p><font color="#022027">A CREATIVE PORTFOLIO TEMPLATE</font></p>
+	<br><font color="#022027">ᐁ</font>
+	<br><font color="#b3b8b2"><br>Sed a lorem quis neque interdum <b><font color="#022027">consequat ut sed sem</font></b>. Duis quis tempor nunc. 
+	<br>Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+	<br>Praesent id tempor ipsum. Fusce at massa ac nunc porta fringilla sed eget neque. 
+	<br>Quisque quis pretium nulla. Fusce eget bibendum neque, vel volutpat augue. 
+	<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	<br>Interdum et malesuada fames ac ante ipsum primis in faucibus.<font>
+	
+	
+	</div>
+</body>
+</html>
